@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root & Routes - Discover Cameroon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logoImg.jpeg" alt="Root & Routes Logo" class="logo-icon">
+                Root & Routes
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-btn active">Home</a>
+                <a href="tours.html" class="nav-btn">Experiences</a>
+                <a href="tours.html?category=Agricultural" class="nav-btn">Agricultural</a>
+                <a href="tours.html?category=Cultural" class="nav-btn">Cultural</a>
+                <a href="about.html" class="nav-btn">About</a>
+                <a href="contact.html" class="nav-btn">Contact</a>
+                <a href="login.html" class="nav-btn" style="border: 1px solid #fff;">Login</a>
+            </div>
+            
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Discover Cameroon's<br>hidden treasures</h1>
+            <p>Experience authentic agricultural heritage and cultural traditions. From palm oil harvests to cocoa forests, connect with local communities and their stories.</p>
+            <a href="tours.html" class="cta-btn primary">Explore Experiences >>></a>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <div class="container">
+            <div class="section-tag"></div>
+            
+            <div class="featured-header">
+                <div class="featured-title">
+                    <h2>Immersive cultural<br>journeys await</h2>
+                </div>
+                <div class="featured-description">
+                    <p>Hand-picked experiences that showcase Cameroon's agricultural excellence and rich heritage. Led by local experts who share their traditions and stories.</p>
+                    <a href="tours.html" class="cta-btn secondary">View All >>></a>
+                </div>
+            </div>
+
+            <!-- Experience Cards -->
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <img src="../site/img1.jpeg" alt="Palm Oil">
+                    <div class="card-content">
+                        <h3>Farm to table dining tour</h3>
+                        <p>Learn traditional harvesting methods from local farmers</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <img src="../site/img3.jpeg" alt="Cultural">
+                    <div class="card-content">
+                        <h3>Cultural Heritage</h3>
+                        <p>Connect with local communities and traditions</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <img src="../site/img2.jpeg" alt="Cocoa">
+                    <div class="card-content">
+                        <h3>Traditional palm oil harvest experience</h3>
+                        <p>Discover nature's treasures and palm cultivation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="logoImg.jpeg" alt="Root & Routes Logo" class="footer-logo">
+                <p>&copy; 2026 Root & Routes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
